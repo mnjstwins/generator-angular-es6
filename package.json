@@ -1,0 +1,37 @@
+{
+  "name": "generator-angular-es6",
+  "version": "0.0.1",
+  "description": "A yeoman generator for AngularJS using ES6 / Classes the simple way.",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isonet/generator-angular-es6"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "yeoman",
+    "yo",
+    "generator",
+    "angular",
+    "angularjs",
+    "es6"
+  ],
+  "author": "Paul Biester <p.biester@isonet.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isonet/generator-angular-es6/issues"
+  },
+  "homepage": "https://github.com/isonet/generator-angular-es6",
+  "dependencies": {
+    "change-case": "~3.0.0",
+    "yeoman-generator": "^0.24.1"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "mock-gulp-dest": "~0.1.1"
+  }
+}
